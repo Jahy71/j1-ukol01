@@ -160,6 +160,78 @@ public class HlavniProgram {
             zofka.turnLeft(20);
         }
 
+        zofka.penUp();
+        zofka.turnRight(180);
+        zofka.move(400);
+
+        // NAPSANI JMENA
+        // pismeno "J"
+        zofka.penDown();
+        zofka.turnLeft(90);
+        zofka.move(50);
+        zofka.turnRight(90);
+        zofka.move(80);
+        for (int i = 0; i < 9; i++) {
+            zofka.move(10);
+            zofka.turnRight(20);
+        }
+        zofka.penUp();
+
+        // pismeno "I"
+        zofka.turnRight(90);
+        zofka.move(100);
+        zofka.penDown();
+        zofka.turnLeft(90);
+        zofka.move(90);
+        zofka.turnLeft(180);
+        zofka.move(115);
+        zofka.penUp();
+
+        // pismeno "R"
+        zofka.turnLeft(90);
+        zofka.move(70);
+        zofka.turnLeft(90);
+        zofka.penDown();
+        zofka.move(115);
+        zofka.turnRight(90);
+        for (int i = 0; i < 9; i++) {
+            zofka.move(10);
+            zofka.turnRight(20);
+        }
+        zofka.turnLeft(135);
+        zofka.move(80);
+
+        // pismeno "K"
+        zofka.penUp();
+        zofka.turnLeft(45);
+        zofka.move(55);
+        zofka.turnLeft(90);
+        zofka.penDown();
+        zofka.move(110);
+        zofka.turnLeft(180);
+        zofka.move(55);
+        zofka.turnLeft(45);
+        zofka.move(75);
+        zofka.turnLeft(180);
+        zofka.move(75);
+        zofka.turnRight(90);
+        zofka.move(75);
+        zofka.penUp();
+
+        // pismeno "A"
+        zofka.turnRight(45);
+        zofka.move(80);
+        zofka.turnRight(75);
+        zofka.penDown();
+        zofka.move(115);
+        zofka.turnRight(180);
+        zofka.move(115);
+        zofka.turnLeft(150);
+        zofka.move(115);
+        zofka.turnLeft(180);
+        zofka.move(45);
+        zofka.turnRight(75);
+        zofka.move(35);
     }
 
     public static void main(String[] args) {
